@@ -1,0 +1,10 @@
+{
+    "files": [
+	"primitives_positive_x.png",
+        "primitives_negative_x.png",
+        "primitives_positive_y.png",
+	"primitives_negative_y.png",
+	"primitives_positive_z.png",
+        "primitives_negative_z.png"
+    ]
+}

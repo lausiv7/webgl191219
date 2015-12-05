@@ -1,0 +1,10 @@
+{
+    "files": [
+	"night_positive_x.png",
+        "night_negative_x.png",
+        "night_positive_y.png",
+	"night_negative_y.png",
+	"night_positive_z.png",
+        "night_negative_z.png"
+    ]
+}

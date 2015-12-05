@@ -1,0 +1,10 @@
+{
+    "files": [
+	"waterscape_positive_x.png",
+        "waterscape_negative_x.png",
+        "waterscape_positive_y.png",
+	"waterscape_negative_y.png",
+	"waterscape_positive_z.png",
+        "waterscape_negative_z.png"
+    ]
+}

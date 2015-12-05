@@ -1,0 +1,10 @@
+{
+    "files": [
+	"arch_positive_x.jpg",
+        "arch_negative_x.jpg",
+        "arch_positive_y.jpg",
+	"arch_negative_y.jpg",
+	"arch_positive_z.jpg",
+        "arch_negative_z.jpg"
+    ]
+}

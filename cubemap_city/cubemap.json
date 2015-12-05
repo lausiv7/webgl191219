@@ -1,0 +1,10 @@
+{
+    "files": [
+	"city_positive_x.png",
+        "city_negative_x.png",
+        "city_positive_y.png",
+	"city_negative_y.png",
+	"city_positive_z.png",
+        "city_negative_z.png"
+    ]
+}

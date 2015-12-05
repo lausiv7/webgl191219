@@ -1,0 +1,10 @@
+{
+    "files": [
+	"cubemap_blue_sofa_positive_x.png",
+        "cubemap_blue_sofa_negative_x.png",
+        "cubemap_blue_sofa_positive_y.png",
+	"cubemap_blue_sofa_negative_y.png",
+	"cubemap_blue_sofa_positive_z.png",
+        "cubemap_blue_sofa_negative_z.png"
+    ]
+}

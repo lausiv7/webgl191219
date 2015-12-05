@@ -1,0 +1,79 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="gl-matrix.js"></script>
+	<script type="text/javascript" src="util.js"></script>
+	<script id="shader-vs" type="x-shader/x-vertex" src="vertex.glsl"></script>
+	<script id="shader-fs" type="x-shader/x-fragment" src="fragment.glsl"></script>
+	<script type="text/javascript" src="model.js"></script>
+	<title>Normal Mapping</title>
+</head>
+
+<body onload="main();">
+	<div style="float:left">
+	<canvas id="glcanvas" width="640" height="480">
+	</div>
+
+	Model:
+	<select id="modelList" onchange="loadScene(this.value);">
+	  <option value="teapot/models/model.json">Teapot</option>
+	  <option value="skull/models/model.json">Skull</option>
+	  <option value="skeleton/models/model.json">Skeleton</option>
+	  <option value="House/models/model.json">House</option>
+	  <option value="House_of_parliament/models/model.json">House of Parliament</option>
+	  <option value="stBasil/models/model.json">St. Basil</option>
+	  <option value="stPeter/models/model.json">St. Peter</option>
+	</select>
+	
+	<br />
+
+	Cubemap:
+	<select id="cubemapList" onchange="changeCubeMap(this.value)">
+	  <option value="cubemap_waterscape/cubemap.json">Water</option>
+	  <option value="cubemap_skybox/cubemap.json">Skybox</option>
+	  <option value="cubemap_blue_sofa/cubemap.json">Blue Sofa</option>
+	  <option value="cubemap_dots/cubemap.json">Dots</option>
+	  <option value="cubemap_night/cubemap.json">Night</option>
+	  <option value="cubemap_arch/cubemap.json">Arch</option>
+	  <option value="cubemap_primitives/cubemap.json">Primitives</option>
+	  <option value="cubemap_city/cubemap.json">City</option>
+	</select>
+	
+	<br />
+        
+        Normal Map:
+	<select id="normalmapList" onchange="changeNormalMap(this.value)">
+	  <option value="normal_maps/fourNormal.jpg">Four</option>
+	  <option value="normal_maps/normal_map.jpg">Normal</option>
+	  <option value="normal_maps/sixNormal.jpg">Six</option>
+	  <option value="normal_maps/snakeSkinNormal.jpg">Snakeskin</option>
+	</select>
+	
+	<br />
+	Light Source:
+	<select id="lightSourceList" onchange="changeLightSource();">
+	  <option value="point">Point</option>
+	  <option value="direction">Direction</option>
+	</select>
+	
+	<br />
+	Light Rotate:
+	<select id="lightRotateToggle" onchange="changeLightRotate();">
+	  <option value="on">On</option>
+	  <option value="off">Off</option>
+	</select>
+	
+	<br />
+	Model Rotate:
+	<select id="modelRotateToggle" onchange="changeModelRotate();">
+	  <option value="on">On</option>
+	  <option value="off">Off</option>
+	</select>
+
+	<br />
+	<div id="light" style="float:left">
+	</div>
+</body>
+
+</html>
